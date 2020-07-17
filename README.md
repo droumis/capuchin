@@ -5,9 +5,9 @@ NMA project
 
 
 ## Installation
-1. git clone <repository>
-2. Add dependencies to setup.py and environment.yml
+1. git clone this repository
+2. Add any additional dependencies to setup.py and environment.yml
 3. Create conda environment:
 ```conda env create -f environment.yml```
 4. Make package editable:
-```python setup.py develop`
+```python setup.py develop```
