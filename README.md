@@ -9,5 +9,5 @@ NMA project
 2. Add any additional dependencies to setup.py and environment.yml
 3. Create conda environment:
 ```conda env create -f environment.yml```
-4. Make package editable:
+4. Register and make package editable:
 ```python setup.py develop```
