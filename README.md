@@ -2,3 +2,12 @@
 NMA project
 
 [GDoc notes](https://docs.google.com/document/d/1ku3SOteiY2WEMyY_TKIeKdPKgLH-vJp6qFQQRjkpnMI/edit#heading=h.k7dktqqb6exx)
+
+
+## Installation
+1. git clone <repository>
+2. Add dependencies to setup.py and environment.yml
+3. Create conda environment:
+```conda env create -f environment.yml```
+4. Make package editable:
+```python setup.py develop`
